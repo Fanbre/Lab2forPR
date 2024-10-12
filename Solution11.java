@@ -32,6 +32,7 @@ import java.util.Arrays;
  */
 public class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
+        //求长度
         int n = nums.length;
         Arrays.sort(nums);
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
